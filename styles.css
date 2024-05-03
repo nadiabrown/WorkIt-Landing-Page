@@ -39,3 +39,23 @@ nav{
     font-weight: 700;
     font-family: "Manrope", sans-serif;
 }
+
+.header-main-section{
+    position: relative;
+    width: 635px;
+}
+
+.header-main-text{
+    font-size: 85px;
+    color: #fff;
+    text-align: center;
+    font-family: "Fraunces", serif;
+}
+
+.tailored-underline{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
+    text-decoration-color:#44FFA1;
+
+}

@@ -57,5 +57,15 @@ nav{
     text-decoration-thickness: 3px;
     text-underline-offset: 10px;
     text-decoration-color:#44FFA1;
+}
 
+.header-button{
+    color:#24053E;
+    font-size: 18px;
+    font-family: "Manrope", serif;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #44FFA1;
 }

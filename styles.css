@@ -23,3 +23,14 @@
 nav{
     position: relative;
   }
+
+.nav-link{
+    text-decoration: underline;
+    text-decoration-color: #44FFA1;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Manrope", sans-serif;
+}

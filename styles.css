@@ -19,3 +19,7 @@
     content: '';
     bottom: 0;
   }
+
+nav{
+    position: relative;
+  }

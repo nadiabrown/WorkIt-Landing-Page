@@ -88,3 +88,11 @@ nav{
     padding-bottom: 15px;
     background-color: #44FFA1;
 }
+
+.header-phone-img img{
+    position: absolute;
+    width: 720px;
+    top: 480px;
+    left: 50%;
+    transform: translateX(-50%);
+}

@@ -40,9 +40,20 @@ nav{
     font-family: "Manrope", sans-serif;
 }
 
+.background-pattern-header-one{
+    position: absolute;
+    left: -125px;
+    top: 135px;
+}
+
+.background-pattern-header-two{
+    position: absolute;
+    right: -50px;
+    top: 360px;
+}
+
 .header-main-section{
     position: relative;
-    /*width: 635px;*/
     display: flex;
     flex-direction: column;
   

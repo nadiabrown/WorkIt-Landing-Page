@@ -119,3 +119,52 @@ nav{
     content: '';
     bottom: 0;
   }
+
+  .section-two-content{
+    position: relative;
+    top: 300px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .content-box{
+    width: 355px;
+  }
+ 
+  .number-container{
+    display: flex;
+    justify-content: center;
+  }
+
+  .content-number { 
+    font-size: 24px;
+    font-family: "Fraunces", serif;
+    font-weight: 400;
+    width: 56px;
+    height: 56px;
+    border: 1px solid #24053E ;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+
+  .content-title{
+    font-size: 32px;
+    font-family: "Fraunces", serif;
+    font-weight: 400;
+    color: #24053E;
+    padding-bottom: 32px;
+    padding-top: 32px;
+  }
+
+  .content-body{
+    font-size: 18px;
+    font-family: "Manrope", sans-serif;
+    color: #24053E;
+    line-height: 32px;
+  }

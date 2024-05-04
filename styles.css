@@ -96,3 +96,26 @@ nav{
     left: 50%;
     transform: translateX(-50%);
 }
+
+.shape-two {
+    position: relative;
+    overflow: hidden;
+    height: 730px;
+  }
+
+  .section-one {
+    position: relative;
+    z-index: -1;
+    top: -90px;
+  }
+  
+  .shape-two::before {
+    border-radius: 75%;
+    position: absolute;
+    background: #FCF8FF;
+    right: -650px;
+    left: -650px;
+    top: -650px;
+    content: '';
+    bottom: 0;
+  }

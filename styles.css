@@ -120,7 +120,7 @@ nav{
     bottom: 0;
   }
 
-  .section-two-content{
+  .section-one-content{
     position: relative;
     top: 300px;
     z-index: 2;
@@ -167,4 +167,53 @@ nav{
     font-family: "Manrope", sans-serif;
     color: #24053E;
     line-height: 32px;
+  }
+
+  .section-two{
+    position: relative;
+    width: 1112px;
+    height: 648px;
+  }
+
+  .section-two img{
+    width: 477px;
+  }
+
+  .section-two-content{
+    display: flex;
+    width: 730px;
+    height: 413px;
+    flex-direction: column;
+    background-color: #24053E;
+    justify-content: center;
+    padding-left: 65px;
+    padding-right: 65px;
+    gap: 25px;
+  }
+
+  .section-two-content h1{
+    color: #fff;
+    font-size: 56px;
+    font-family: "Fraunces", serif;
+    font-weight: 600;
+    text-align: left;
+    padding-bottom: 10px;
+  }
+
+  .section-two-content p{
+    color: #fff;
+    font-size: 18px;
+    font-family: "Manrope", sans-serif;
+    line-height: 32px;
+    font-weight: 300;
+    text-align: left;
+  }
+
+  .section-two-content button {
+    width: 190px;
+    height: 61px;
+    background-color: #44FFA1;
+    color: #24053E;
+    font-size: 18px;
+    font-weight: 500;
   }

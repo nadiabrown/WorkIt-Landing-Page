@@ -40,6 +40,10 @@ nav{
     font-family: "Manrope", sans-serif;
 }
 
+.nav-link:hover {
+  color:#44FFA1;
+}
+
 .background-pattern-header-one{
     position: absolute;
     left: -125px;

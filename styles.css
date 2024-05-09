@@ -239,6 +239,12 @@ nav{
     font-weight: 500;
   }
 
+  .section-two-content button:hover{
+    color:#44FFA1;
+    background-color: #24053E;
+    border: 2px solid #44FFA1;
+  }
+
   .section-two-content svg {
     width: 450px;
     position: absolute;

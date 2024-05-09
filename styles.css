@@ -91,6 +91,8 @@ nav{
     padding-top: 15px;
     padding-bottom: 15px;
     background-color: #44FFA1;
+    box-shadow: none;
+    border: none;
 }
 
 .header-button:hover{
@@ -237,6 +239,8 @@ nav{
     color: #24053E;
     font-size: 18px;
     font-weight: 700;
+    box-shadow: none;
+    border: none;
   }
 
   .section-two-content button:hover{

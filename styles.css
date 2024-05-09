@@ -228,3 +228,10 @@ nav{
     font-size: 18px;
     font-weight: 500;
   }
+
+  .section-two-content svg {
+    width: 450px;
+    position: absolute;
+    bottom: -75px;
+    left: 430px;
+  }

@@ -93,6 +93,12 @@ nav{
     background-color: #44FFA1;
 }
 
+.header-button:hover{
+  color:#44FFA1;
+  background-color: #24053E;
+  border: 2px solid #44FFA1;
+}
+
 .header-phone-img img{
     position: absolute;
     width: 720px;

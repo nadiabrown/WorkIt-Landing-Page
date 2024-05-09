@@ -169,10 +169,10 @@ nav{
     line-height: 32px;
   }
 
-  .section-two{
-    position: relative;
-    width: 1112px;
-    height: 648px;
+  .section-two-inner-container{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
   }
 
   .section-two img{

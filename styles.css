@@ -263,3 +263,55 @@ nav{
     gap: 40px;
     margin-bottom: 80px;
   }
+
+/* tablet media queries */
+  @media (min-width: 377px) and (max-width: 1000px) {
+
+    nav{
+    padding-top: 45px;
+    padding-left: 50px;
+    padding-right: 50px;
+    }
+
+    .background-pattern-header-one{
+      left: -200px;
+    }
+
+    .header-main-text{
+      font-size: 60px;
+      width: 573px;
+      padding-bottom: 30px;
+    }
+
+    .header-button{
+      width: 133px;
+      height: 55px;
+      font-size: 16px;
+      padding-left: 23px;
+      padding-right: 23px;
+      padding-top: 11px;
+      padding-bottom: 11px;
+      
+    }
+
+    .shape {
+      position: relative;
+      overflow: hidden;
+      height: 540px;
+    }
+
+    .background-pattern-header-one{
+      top: 100px;
+  }
+
+   .background-pattern-header-two{
+    top: 250px;
+}
+
+  .header-phone-img img{
+    position: absolute;
+    width: 514px;
+    top: 430px;
+}
+
+  }

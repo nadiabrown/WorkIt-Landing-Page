@@ -419,14 +419,103 @@ nav{
 
     .header-phone-img img{
       position: absolute;
-      width: 320px;
+      width: 350px;
       top: 430px;
       left: 50%;
       transform: translateX(-50%);
     }
+
+    .shape-two {
+      position: relative;
+      overflow: hidden;
+      height: 1200px;
+    }
+
+    .section-one-content{
+      gap: 45px;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .content-box{
+      width: 400px;
+    }
+
+    .content-number { 
+      font-size: 20px;
+      width: 48px;
+      height: 48px;
+  }
+
+    .content-title{
+      font-size: 28px;
+      padding-bottom: 28px;
+      padding-top: 28px;
+    }
+
+    .content-body{
+      font-size: 16px;
+      line-height: 28px;
+    }
+
+    .section-two-inner-container {
+      display: flex;
+     /* height: 700px;*/
+      align-items: center;
+      flex-direction: column;
+  }
+
+    .section-two img{
+      width: 281px;
+      height: 281px;
+    } 
+
+    .section-two-content{
+      display: flex;
+      width: 65%;
+      height: 413px;
+      flex-direction: column;
+      top: -75px;
+      left: 0;
+      right: 0;
+      margin-right: 0;
+      align-items: center;
+    }
+
+    .section-two-content svg {
+      display: none;
+    }
+
+    .section-two-content h1{
+      color: #fff;
+      font-size: 32px;
+      text-align: center;
+      padding-bottom: 5px;
+    }
+
+    .section-two-content p{
+      font-size: 16px;
+      line-height: 28px;
+      text-align: center;
+    }
+
+    .section-two-content button {
+      width: 172px;
+      height: 55px;
+      font-size: 16px;
+      font-weight: 700;
+    }
+
     }
 
   
  /* 
+
+  .section-two-content button:hover{
+    color:#44FFA1;
+    background-color: #24053E;
+    border: 2px solid #44FFA1;
+  }
+
 
   } */

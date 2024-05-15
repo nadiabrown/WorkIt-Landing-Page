@@ -200,7 +200,7 @@ nav{
 
   .section-two-content{
     display: flex;
-    width: 730px;
+    width: 50%;
     height: 413px;
     flex-direction: column;
     background-color: #24053E;
@@ -346,4 +346,53 @@ nav{
     overflow: hidden;
     height: 1100px;
   }
+
+    .section-two img{
+    width: 281px;
+    height: 281px;
   }
+
+  .section-two-image {
+    width: 281px;
+    height: 281px;
+  }
+
+  .section-two-content{
+    width: 50%;
+    height: 375px;
+  }
+
+  .section-two-content h1{
+    font-size: 48px;
+    padding-bottom: 0px;
+  }
+
+  .section-two-content p{
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .section-two-content button {
+    width: 172px;
+    height: 55px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .section-two-content svg {
+    width: 35%;
+    position: absolute;
+    bottom: -75px;
+    left: 62%;
+  }
+  }
+
+
+ /* 
+
+  .section-two-content svg {
+    width: 450px;
+    position: absolute;
+    bottom: -75px;
+    left: 430px;
+  } */

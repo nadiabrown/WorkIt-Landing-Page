@@ -260,7 +260,7 @@ nav{
   }
 
 /* tablet media queries */
-  @media (min-width: 377px) and (max-width: 1000px) {
+  @media (min-width: 751px) and (max-width: 1000px) {
 
     nav{
     padding-top: 45px;
@@ -377,12 +377,19 @@ nav{
   }
   }
 
+  @media (max-width: 750px) {
+    .shape::before {
+      border-radius: 75%;
+      position: absolute;
+      background: pink;
+      right: -650px;
+      left: -650px;
+      top: -650px;
+      content: '';
+      bottom: 0;
+    }
+    }
 
  /* 
 
-  .section-two-content svg {
-    width: 450px;
-    position: absolute;
-    bottom: -75px;
-    left: 430px;
   } */

@@ -191,12 +191,7 @@ nav{
   .section-two img{
     width: 477px;
     height: 477px;
-  }
-
-  .section-two-image {
-    width: 477px;
-    height: 477px;
-  }
+  } 
 
   .section-two-content{
     display: flex;
@@ -253,7 +248,7 @@ nav{
     width: 450px;
     position: absolute;
     bottom: -75px;
-    left: 430px;
+    left: 55%;
   }
 
   footer {
@@ -348,11 +343,6 @@ nav{
   }
 
     .section-two img{
-    width: 281px;
-    height: 281px;
-  }
-
-  .section-two-image {
     width: 281px;
     height: 281px;
   }

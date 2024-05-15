@@ -377,19 +377,56 @@ nav{
   }
   }
 
+
+  /* Mobile Media Query */
+
   @media (max-width: 750px) {
-    .shape::before {
-      border-radius: 75%;
+    .shape {
+      position: relative;
+      overflow: hidden;
+      height: 520px;
+    }
+
+    nav{
+      padding-top: 45px;
+      padding-left: 50px;
+      padding-right: 50px;
+      }
+    
+    .background-pattern-header-one{
+        left: -500px;
+    }
+
+    .background-pattern-header-two{
+      right: -500px;
+  }
+      
+    .header-main-text{
+      width: 75%;
+      font-size: 50px;
+      color: #fff;
+      padding-bottom: 40px;
+  }
+
+    .header-button{
+      width: 33%;
+      font-size: 16px;
+      padding-left: 23.5px;
+      padding-right: 23.5px;
+      padding-top: 11.5px;
+      padding-bottom: 11.5px;
+}
+
+    .header-phone-img img{
       position: absolute;
-      background: pink;
-      right: -650px;
-      left: -650px;
-      top: -650px;
-      content: '';
-      bottom: 0;
+      width: 320px;
+      top: 430px;
+      left: 50%;
+      transform: translateX(-50%);
     }
     }
 
+  
  /* 
 
   } */
